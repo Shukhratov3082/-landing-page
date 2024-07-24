@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css  ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poiret+One&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poiret+One&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="header__logo">ЧПТУП “Литовск Пром”</h1>
+        <div class="header__telefon">
+            <button class="header__btn" onclick="toggle()">Тел.</button>
+            <div class="phone-numbers" id="phoneNumbers">
+                <p>Пиломатериалы: </p>
+                <a href="tel:+375292256920">+375 29 225-69-20</a>
+                <p>Беседки, бани: </p>
+                <a href="tel:+375297224233">+375 29 722-42-33</a>
+            </div>
+        </div>
+
+    </header>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Пиломатериалы, дрова в Дрогичине</h1>
+            <div class="paragraph">
+                <p>Собственная заготовка и распил, без посредников, поэтому предлагаем вам продукцию по оптимальной цене
+                </p>
+                <p>У нас большой опыт в деревообработке</p>
+                <p>Опт и розница. Работаем с предприятиями</p>
+                <p>Возможна доставка</p>
+            </div>
+        </div>
+        <img src="images/hero-wood.png" alt="">
+    </div>
+
+    <div class="product">
+        <h1 class="product-title">Наша продукция</h1>
+        <p class="product-dsc">Возможны любые размеры под заказ</p>
+        <div class="product-orders">
+            <div class="product-order">
+                <img class="product-order__img" src="images/product-image1.png" alt="Необрезная доска">
+                <span class="product-order__dsc">Необрезная доска</span>
+            </div>
+            <div class="product-order">
+                <img class="product-order__img" src="images/product-image2.png" alt="Обрезная доска">
+                <span class="product-order__dsc">Обрезная доска</span>
+            </div>
+            <div class="product-order">
+                <img class="product-order__img" src="images/product-image3.png" alt="Брус">
+                <span class="product-order__dsc">Брус</span>
+            </div>
+            <div class="product-order">
+                <img class="product-order__img" src="images/product-image4.png" alt="Балки, стропила">
+                <span class="product-order__dsc">Балки, стропила</span>
+            </div>
+        </div>
+        <div class="product-new">
+            <span>НОВИНКА</span>
+        </div>
+        <p class="product-dsc product-dsc-2">Теперь мы можем вам предложить:</p>
+
+        <div class="product-offers">
+            <div class="product-offer offer-1">
+                <div class="offer-content">
+                    <span class="span-1">Бревно оцилиндрованное</span>
+                    <p>Ф200 <br>
+                        Ф180 <br>
+                        Длина 4 метра <br>
+                        Возможны другие варианты размеров по предварительному заказу</p>
+                </div>
+                <img class="product-section__image" src="images/log.png" alt="Бревно оцилиндрованное">
+            </div>
+            <div class="product-offer offer-2">
+                <img class="product-section__image" src="images/house.png" alt="Дачные домики, бани">
+                <div class="offer-content">
+                    <span>Дачные домики, бани</span>
+                    <p>Изготавливаем дачные домики и бани из бревна ф180, ф200 по предварительному проекту. Мы реализуем
+                        вашу мечту и осуществим самые смелые архитектурные решения</p>
+                </div>
+            </div>
+            <div class="product-offer offer-3">
+                <div class="offer-content">
+                    <span>Беседка</span>
+                    <p>Изготавливаем качественные деревянные беседки по предварительному проекту.
+                        Также делаем деревянные садовые решетки.</p>
+                </div>
+                <img class="product-section__image" src="images/gazebos.png" alt="Беседка">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <div class="section__content">
+                <ul class="section__list">
+                    <li>Основной материал всей продукции – сосна. <br> Под заказ: дуб, ясень, ольха, осина.</li>
+                    <li>Возможна доставка.</li>
+                    <li>Звоните, ответим на все ваши вопросы. Обсудим размеры, древесину, доставку. Подскажем,
+                        поможем.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="contact">
+            <div class="contact__title">Контакты:</div>
+            <div class="contact__items">
+                <div class="contact__item">
+                    <span>Пиломатериалы, дрова</span>
+                    <span>Дома, беседки, бани</span>
+                    <span class="desctop__email">Email:</span>
+                    <span class="desctop__data-time">Время работы:</span>
+                </div>
+                <div class="contact__item">
+                    <span class="number-1">тел.: <span class="number ">+375 29 225-69-20</span></span>
+                    <span class="number-2">тел.: <span class="number">+375 29 722-42-33</span></span>
+                    <span class="mobile__email">Email:</span>
+
+                    <span class="number"> litovskpromwood@gmail.com</span>
+
+
+                    <div class="contact__item-data">
+                        <span class="mobile__data-time">Время работы:</span>
+
+                        <div class="data-row">
+                            <div class="data-day">пн - пт</div>
+                            <div class="data-time">8 - 18</div>
+                        </div>
+                        <div class="data-row">
+                            <div class="data-day">сб</div>
+                            <div class="data-time">8 - 15</div>
+                        </div>
+                        <div class="data-row">
+                            <div class="data-day">вс</div>
+                            <div class="data-time">выходной</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer__content">
+            <div class="footer__left">
+                <h1 class="footer__title">ЧТПУП "Литовск Пром"</h1>
+                <p class="footer__address desctop__footer-address">УНП 290245427</p>
+                <p class="desctop__footer-address">Республика Беларусь, Брестская обл. <br> Ивановский р-н, д. Литовск
+                </p>
+            </div>
+            <div class="footer__right">
+                <div class="footer__item">
+                    <p>Дома, беседки, бани</p>
+                    <a class="footer__number" href="tel:+375297224233">+375 29 722-42-33</a>
+
+                </div>
+
+                <div class="footer__item">
+                    <p>Пиломатериалы</p>
+                    <a class="footer__number" href="tel:+375292256920">+375 29 225-69-20</a>
+                </div>
+                <p class="footer__address mobile__footer-address">УНП 290245427</p>
+                <p class="mobile__footer-address">Республика Беларусь, Брестская обл. <br> Ивановский р-н, д. Литовск
+                </p>
+
+            </div>
+        </div>
+        <p class="name">г. Брест</p>
+    </footer>
+    <script>
+        function toggle() {
+            var phoneNumbers = document.getElementById('phoneNumbers');
+            if (phoneNumbers.style.display === 'none' || phoneNumbers.style.display === '') {
+                phoneNumbers.style.display = 'block';
+            } else {
+                phoneNumbers.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+
+</html>
