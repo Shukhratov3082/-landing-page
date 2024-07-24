@@ -43,6 +43,10 @@
         font-size: 16px;
     }
 
+    .hero-img {
+        border-radius: 0px;
+    }
+
     .product {
         padding: 16px;
         margin: 0 16px;
@@ -162,13 +166,23 @@
         flex-direction: column;
     }
 
+    .desctop-contact-info {
+        display: none;
+    }
+
+    .mobile-contact-info {
+        display: block;
+    }
+
+
     .number-1 {
-        margin-top: 16px;
+        margin-top: 8px;
         margin-bottom: 10px;
 
     }
 
     .number-2 {
+        margin-top: 8px;
         margin-bottom: 16px;
     }
 

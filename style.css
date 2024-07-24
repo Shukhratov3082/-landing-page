@@ -103,9 +103,10 @@ header {
     gap: 20px;
 }
 
-.hero img {
+.hero-img {
     max-width: 776px;
     height: 100%;
+    border-radius: 45px;
 }
 
 .product {
@@ -241,6 +242,14 @@ header {
     flex-direction: column;
     font-family: "Open Sans", sans-serif;
 
+}
+
+.desctop-contact-info {
+    display: block;
+}
+
+.mobile-contact-info {
+    display: none;
 }
 
 .contact__item-data {
