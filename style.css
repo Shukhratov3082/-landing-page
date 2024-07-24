@@ -9,7 +9,6 @@ body {
     background-color: #f0f0f0;
 }
 
-
 header {
     width: 100%;
     display: flex;
@@ -23,7 +22,6 @@ header {
 
 .header--scrolled {
     background-color: white;
-
 }
 
 .header__logo {
@@ -44,7 +42,6 @@ header {
     font-family: "Poiret One", sans-serif;
     position: relative;
     z-index: 1;
-
 }
 
 .header__btn:hover {
@@ -80,6 +77,7 @@ header {
     padding: 7px 4px;
 }
 
+
 .hero {
     display: flex;
     justify-content: space-between;
@@ -90,7 +88,6 @@ header {
     max-width: 545px;
     font-size: 55px;
     font-family: "Playfair Display", serif;
-
     font-weight: 400;
     margin-bottom: 69px;
 }
@@ -120,7 +117,6 @@ header {
     font-size: 64px;
     font-weight: 400;
     font-family: "Poiret One", sans-serif;
-
     margin-bottom: 20px;
     border-radius: 50px;
 }
@@ -130,8 +126,6 @@ header {
     font-weight: 400;
     font-family: "Playfair Display", serif;
     margin: 48px 0 64px;
-
-
 }
 
 .product-orders {
@@ -141,18 +135,13 @@ header {
     flex-wrap: wrap;
 }
 
-.product-order__img {
-    display: block;
-    height: auto;
-}
-
+.product-order__img,
 .product-order__dsc {
     display: block;
     text-align: center;
     font-size: 38px;
     margin-top: 10px;
     font-family: "Playfair Display", serif;
-
 }
 
 .product-new {
@@ -172,7 +161,8 @@ header {
     margin-bottom: 98px;
 }
 
-.product-offer span {
+.product-offer span,
+.product-offer p {
     display: block;
     font-size: 38px;
     margin-bottom: 28px;
@@ -186,18 +176,14 @@ header {
 
 .offer-content p {
     font-family: "Open Sans", sans-serif;
-
 }
 
-
 .section {
-    margin: 0 195px;
+    margin: 0 195px 30px;
     background-color: #fff;
     font-size: 36px;
-    margin-bottom: 30px;
     border-radius: 50px;
     padding: 60px 50px 60px 85px;
-
 }
 
 .section__list {
@@ -225,7 +211,6 @@ header {
     margin-bottom: 16px;
     font-size: 38px;
     font-family: "Playfair Display", serif;
-
 }
 
 .contact__items {
@@ -235,44 +220,16 @@ header {
     gap: 32px;
 }
 
-
-
-.contact__item {
-    display: flex;
-    flex-direction: column;
-    font-family: "Open Sans", sans-serif;
-
-}
-
-.desctop-contact-info {
-    display: block;
-}
-
-.mobile-contact-info {
-    display: none;
-}
-
+.contact__item,
 .contact__item-data {
     display: flex;
     flex-direction: column;
-    max-width: 200px;
     font-family: "Open Sans", sans-serif;
 }
 
-.desctop__email {
-    display: block;
-}
-
-.mobile__email {
-    display: none;
-}
-
-.desctop__data-time {
-    display: block;
-}
-
-.mobile__data-time {
-    display: none;
+.contact__item-data {
+    max-width: 200px;
+    margin-top: 50px;
 }
 
 .contact__item-data .data-row {
@@ -293,13 +250,8 @@ header {
     font-size: 24px;
 }
 
-.contact__item-data {
-    margin-top: 50px;
-}
-
 footer {
     background-color: #8E979D;
-
     padding: 89px 150px;
     border-radius: 10px;
 }
@@ -320,17 +272,8 @@ footer {
     align-items: center;
 }
 
-.footer__left P {
+.footer__left p {
     font-family: "Open Sans", sans-serif;
-
-}
-
-.desctop__footer-address {
-    display: block;
-}
-
-.mobile__footer-address {
-    display: none;
 }
 
 .footer__right {
@@ -344,7 +287,6 @@ footer {
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
     color: #000;
-
 }
 
 .name {
@@ -352,4 +294,22 @@ footer {
     text-align: end;
     font-family: "Poiret One", sans-serif;
     font-size: 30px;
+}
+
+.desctop-contact-info,
+.mobile-contact-info,
+.desctop__email,
+.mobile__email,
+.desctop__data-time,
+.mobile__data-time,
+.desctop__footer-address,
+.mobile__footer-address {
+    display: none;
+}
+
+.desctop-contact-info,
+.desctop__email,
+.desctop__data-time,
+.desctop__footer-address {
+    display: block;
 }

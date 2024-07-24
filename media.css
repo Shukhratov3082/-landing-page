@@ -1,4 +1,4 @@
-@media (max-width:360px) {
+@media (max-width: 360px) {
     header {
         padding: 16px;
     }
@@ -15,14 +15,14 @@
 
     .phone-numbers {
         font-size: 12px;
-        padding: 23px 13px 20px 13px;
+        padding: 23px 13px 20px;
         right: 5px;
         top: 10px;
     }
 
     .hero {
         flex-direction: column;
-        padding: 75px 0 0 0;
+        padding: 75px 0 0;
     }
 
     .hero-content {
@@ -36,7 +36,6 @@
     .hero-content h1 {
         font-size: 30px;
         margin-bottom: 16px;
-
     }
 
     .hero-content p {
@@ -44,7 +43,7 @@
     }
 
     .hero-img {
-        border-radius: 0px;
+        border-radius: 0;
     }
 
     .product {
@@ -85,14 +84,14 @@
         margin: 0 0 40px;
     }
 
-    .product-offers {
-        display: flex;
+    .product-offers,
+    .product-offer,
+    .offer-2 {
         flex-direction: column;
     }
 
     .product-offer {
-        flex-direction: column;
-        margin: 0 44px 98px 44px;
+        margin: 0 44px 98px;
     }
 
     .offer-content p {
@@ -108,21 +107,7 @@
 
     .offer-content .span-1 {
         text-align: start;
-        margin-left: -35px;
-        margin-right: -21px;
-    }
-
-    .offer-1 {
-        order: 3;
-    }
-
-    .offer-2 {
-        order: 2;
-        flex-direction: column-reverse;
-    }
-
-    .offer-3 {
-        order: 1;
+        margin: 0 -21px 0 -35px;
     }
 
     .product-offer img {
@@ -130,12 +115,12 @@
     }
 
     .container {
-        padding: 0 16pxS;
+        padding: 0 16px;
     }
 
     .section {
         padding: 20px 44px;
-        margin: 16px 16px;
+        margin: 16px 0git gi;
         border-radius: 30px;
     }
 
@@ -151,7 +136,7 @@
 
     .contact {
         padding: 16px;
-        margin: 0 16px 38px 16px;
+        margin: 0 0 38px;
         border-radius: 30px;
     }
 
@@ -166,41 +151,28 @@
         flex-direction: column;
     }
 
-    .desctop-contact-info {
+    .desctop-contact-info,
+    .desctop__email,
+    .desctop__data-time,
+    .desctop__footer-address {
         display: none;
     }
 
-    .mobile-contact-info {
+    .mobile-contact-info,
+    .mobile__email,
+    .mobile__data-time,
+    .mobile__footer-address {
         display: block;
     }
-
 
     .number-1 {
         margin-top: 8px;
         margin-bottom: 10px;
-
     }
 
     .number-2 {
         margin-top: 8px;
         margin-bottom: 16px;
-    }
-
-    .desctop__email {
-        display: none;
-    }
-
-    .mobile__email {
-        display: block;
-        margin-bottom: 10px;
-    }
-
-    .desctop__data-time {
-        display: none;
-    }
-
-    .mobile__data-time {
-        display: block;
     }
 
     .contact__item-data {
@@ -231,19 +203,10 @@
     .footer__item p {
         margin-bottom: 4px;
         font-weight: 500;
-
     }
 
     .footer__number {
         font-weight: 400 !important;
-    }
-
-    .desctop__footer-address {
-        display: none;
-    }
-
-    .mobile__footer-address {
-        display: flex;
     }
 
     .footer__right {
@@ -255,5 +218,4 @@
     .name {
         font-size: 25px;
     }
-
 }
