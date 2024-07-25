@@ -8,3 +8,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+function toggle() {
+    let phoneNumbers = document.getElementById('phoneNumbers');
+    if (phoneNumbers.style.display === 'none' || phoneNumbers.style.display === '') {
+        phoneNumbers.style.display = 'block';
+    } else {
+        phoneNumbers.style.display = 'none';
+    }
+}

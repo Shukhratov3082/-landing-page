@@ -1,4 +1,4 @@
-@media (max-width: 420px) {
+@media (max-width: 415px) {
     header {
         padding: 16px;
     }
@@ -31,10 +31,7 @@
     .contact__item-data .data-time {
         max-width: 52px;
     }
-
 }
-
-
 
 @media (max-width: 480px) {
     header {
@@ -98,6 +95,10 @@
     .product-dsc {
         font-size: 23px;
         margin: 0 0 46px;
+    }
+
+    .product-orders {
+        padding: 0;
     }
 
     .product-order {
