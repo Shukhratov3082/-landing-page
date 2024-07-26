@@ -45,7 +45,7 @@
     .header__btn {
         width: 99px;
         font-size: 16px;
-        padding: 5px 38px;
+        padding: 5px;
     }
 
     .phone-numbers {
@@ -225,7 +225,7 @@
     }
 
     .mobile__email {
-        margin-bottom: 16px;
+        margin-bottom: 9px;
     }
 
     .number-1 {
